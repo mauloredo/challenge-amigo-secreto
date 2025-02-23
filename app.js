@@ -3,7 +3,8 @@
 
 //1.          crear un array para almacenar los nombres
 let listaCinco = []
-//Como resultado de este paso nos dará la lista listaCinco, la cual se utilizará para el siguiente paso
+//4. Se declara el número maximo de amigos
+let amigosMaximo = 5
 
 //2.          implementar una función para agregar amigos. Se utilizan los elementos:
 //input box amigo
@@ -39,7 +40,7 @@ let listaCinco = []
             // para asegurarse de que no haya duplicados al actualizar.
             if (elementoiLista) {
                 elementoLista.innerHTML = ""
-                //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos 
+                //3.3 Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos 
                 // y crear elementos de lista (<li>) para cada título.
                 listaCinco.forEach(amigo =>{
                     let elemento = document.createElement("li")
@@ -64,6 +65,7 @@ actualizarLista()
     //amigo: input box
     //amigoInput: variable para el mensaje en la input box
     //listaCinco: array para los nombres
+    //amigosMaximo: tamaño del array
     //nombreAmigo: tagID de los nombres de los Amigos
     //listaAmigos: tagID del display de los nombres de los amigos
     //elementoLista: variable para el display de la lista
