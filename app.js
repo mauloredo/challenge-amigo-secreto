@@ -64,27 +64,31 @@ let amigosMaximo = 5
                 alert("Aún no hay amigos registrados!")
                 return
             }
+            //5.2 Generar un índice aleatorio: Usar Math.random() y Math.floor() 
+            // para seleccionar un índice aleatorio del arreglo.
             let indexRandom = Math.floor(Math.random()*listaCinco.length);
+            //5.3 Obtener el nombre sorteado: Utilizar el índice aleatorio para acceder 
+            // al nombre correspondiente en el arreglo.
             let amigoSecreto = listaCinco[indexRandom];
             publicarNombre(amigoSecreto)
         } 
-        //5.2 Generar un índice aleatorio: Usar Math.random() y Math.floor() 
-        // para seleccionar un índice aleatorio del arreglo.
-        
-        //5.3 Obtener el nombre sorteado: Utilizar el índice aleatorio para acceder 
-        // al nombre correspondiente en el arreglo.
-        
-        //5.4 Mostrar el resultado: Actualizar el contenido del elemento de resultado utilizando document.getElementById()  e innerHTML para mostrar el amigo sorteado.
+       //5.4 Mostrar el resultado: Actualizar el contenido del elemento de resultado 
+       // utilizando document.getElementById()e innerHTML para mostrar el amigo sorteado.
+        function publicarNombre(nombre){
+            let resultadoLista = document.getElementById("resultado")
+            if (resultadoLista) {
+                resultadoLista.innerHTML = ""
+                let elemento = document.createElement("li")
+                elemento.textContent = nombre
+                resultadoLista.appendChild(elemento);
+            }     
+        }
 
-
-       
-
-
-
-        //se llaman las funciones
+//se llaman las funciones
 agregarAmigo()
 actualizarLista()
 sortearAmigo()
+publicarNombre()
 
 
 
@@ -108,3 +112,4 @@ sortearAmigo()
     //amigo: variable creada para cada iteración
     //indexRandom: seleccionador de nombre
     //amigoSecreto: su nombre lo dice ;)
+    //resultadoLista: variable para publicar el amigo Secreto
