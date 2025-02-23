@@ -49,12 +49,13 @@ let listaCinco = []
                 })    
             }
         }
+//se llaman las funciones
+agregarAmigo()
+actualizarLista()
 
 
 
 
-//Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.        
-//realizar Read.me
     //LISTA DE FUNCIONES
     //agregarAmigo
     //actualizarLista
