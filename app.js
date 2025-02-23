@@ -41,9 +41,16 @@ let listaCinco = []
                 elementoLista.innerHTML = ""
                 //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos 
                 // y crear elementos de lista (<li>) para cada título.
-                listaCinco.forEach()    
+                listaCinco.forEach(amigo =>{
+                    let elemento = document.createElement("li")
+                    elemento.textContent = amigo
+                    elemento.role = "listitem"
+                    elementoLista.appendChild(elemento)
+                })    
             }
         }
+
+
 
 
 //Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.        
@@ -60,3 +67,4 @@ let listaCinco = []
     //listaAmigos: tagID del display de los nombres de los amigos
     //elementoLista: variable para el display de la lista
     //elemento: variables para el contenedor ul para para cada nombre
+    //amigo: variable creada para cada iteración
