@@ -39,7 +39,7 @@ let amigosMaximo = 5
             }
         }
         //3. implementar una función para sortear amigos
-        function actualizarLista() {
+        function actualizarLista(amigo) {
             //3.1 Obtener el elemento de la lista: Utilizar document.getElementById() o 
             // document.querySelector() para seleccionar la lista donde se mostrarán los amigos.
             let elementoLista = document.getElementById("listaAmigos")
@@ -52,7 +52,6 @@ let amigosMaximo = 5
                 listaCinco.forEach(amigo =>{
                     let elemento = document.createElement("li")
                     elemento.textContent = amigo
-                    elemento.role = "listitem"
                     elementoLista.appendChild(elemento)
                 })    
             }
@@ -90,10 +89,6 @@ actualizarLista()
 sortearAmigo()
 publicarNombre()
 
-
-
-
-
     //LISTA DE FUNCIONES
     //agregarAmigo
     //actualizarLista
@@ -113,3 +108,4 @@ publicarNombre()
     //indexRandom: seleccionador de nombre
     //amigoSecreto: su nombre lo dice ;)
     //resultadoLista: variable para publicar el amigo Secreto
+    //nombre: parámetro para la función
