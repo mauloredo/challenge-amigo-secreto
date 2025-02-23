@@ -1,12 +1,11 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
-
-//1.          crear un array para almacenar los nombres
+//1. Crear un array para almacenar los nombres
 let listaCinco = []
 //4. Se declara el número maximo de amigos
 let amigosMaximo = 5
 
-//2.          implementar una función para agregar amigos. Se utilizan los elementos:
+//2. Implementar una función para agregar amigos. Se utilizan los elementos:
 //input box amigo
 //función "agregar amigo"
 //elemento ul para el display de los nombres
@@ -58,7 +57,25 @@ let amigosMaximo = 5
                 })    
             }
         }
-//se llaman las funciones
+        //5.1 Validar que haya amigos disponibles: Antes de sortear, 
+        // comprobar si el array amigos no está vacío.
+
+        //5.2 Generar un índice aleatorio: Usar Math.random() y Math.floor() 
+        // para seleccionar un índice aleatorio del arreglo.
+        
+        //5.3 Obtener el nombre sorteado: Utilizar el índice aleatorio para acceder 
+        // al nombre correspondiente en el arreglo.
+        
+        //5.4 Mostrar el resultado: Actualizar el contenido del elemento de resultado utilizando document.getElementById()  e innerHTML para mostrar el amigo sorteado.
+
+
+        function sortearAmigo() {
+
+}
+
+
+
+        //se llaman las funciones
 agregarAmigo()
 actualizarLista()
 
@@ -68,6 +85,8 @@ actualizarLista()
     //LISTA DE FUNCIONES
     //agregarAmigo
     //actualizarLista
+    //sortearAmigo
+    //publicarNombre
 
     //LISTA DE VARIABLES
     //amigo: input box
