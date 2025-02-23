@@ -59,7 +59,15 @@ let amigosMaximo = 5
         }
         //5.1 Validar que haya amigos disponibles: Antes de sortear, 
         // comprobar si el array amigos no está vacío.
-
+        function sortearAmigo() {
+            if (listaCinco === 0) {
+                alert("Aún no hay amigos registrados!")
+                return
+            }
+            let indexRandom = Math.floor(Math.random()*listaCinco.length);
+            let amigoSecreto = listaCinco[indexRandom];
+            publicarNombre(amigoSecreto)
+        } 
         //5.2 Generar un índice aleatorio: Usar Math.random() y Math.floor() 
         // para seleccionar un índice aleatorio del arreglo.
         
@@ -69,15 +77,15 @@ let amigosMaximo = 5
         //5.4 Mostrar el resultado: Actualizar el contenido del elemento de resultado utilizando document.getElementById()  e innerHTML para mostrar el amigo sorteado.
 
 
-        function sortearAmigo() {
-
-}
+       
 
 
 
         //se llaman las funciones
 agregarAmigo()
 actualizarLista()
+sortearAmigo()
+
 
 
 
@@ -98,3 +106,5 @@ actualizarLista()
     //elementoLista: variable para el display de la lista
     //elemento: variables para el contenedor ul para para cada nombre
     //amigo: variable creada para cada iteración
+    //indexRandom: seleccionador de nombre
+    //amigoSecreto: su nombre lo dice ;)
