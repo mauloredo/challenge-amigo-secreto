@@ -15,10 +15,12 @@
 
 ---
 ## 1. Descripción del Proyecto
+
 Este projecto de programación es parte del curso de Lógica de Programación del programa Oracle ONE en colaboración con Alura LATAM.
 El principal objetivo de este desafío es fortalecer las habilidades en lógica de programación. Se requiere desarrollar la lógica para resolver el problema.
 ---
 ## 2. Funcionalidad
+
 Esta aplicación permite al usuario ingresar nombres de sus amigos y luego realizar un sorteo aleatorio para determinar, quién es el amigo secreto.
 De esta manera, se aplican de manera práctica, conceptos fundamentales de lógica de programación como condicionales, arrays, funciones, entre otros. 
 Para lograrlo, esta aplicación debe permitir que se agreguen nombres a través de un campo de texo y un botón.
@@ -27,6 +29,7 @@ Puntos importantes:
    El programa deberá identificar entradas dobles
 ---
 ## 3. Uso de Código
+
 Como base para el proyecto, se proporcionó un repositorio con el siguiente contenido:
 a. style.css
 b. index.html
@@ -37,38 +40,39 @@ Antes de comenzar el  código, fue indispensable el familiarizarme con estos doc
 Ya familiarizado con las herramientas y recursos proporcionados se comenzó el código.
 ---
 ## 4. Uso de Código
+
 Principalmente se uso el lenguaje de programación Java Script, y los lenguajes de marcado HTML y Markdown ´para la elaboración del documento que te encuentras leyendo en este momento.
 ---
 ## 5. Estructura del código
-La Estructura del código sufrió muchas modificaciones, las cuales podrás verificar en los commits para el control de versiones. La estructura final del código se encuentra a continuación:
 
-Crear un array para almacenar los nombres
-Implementar una función para agregar amigos.
-    Capturar el valor del campo de entrada
-        Entradas Vacias
-        Entradas Repetidas
-        Actualizar el array de amigos
-        Restablecer el campo de texto a una cadena vacía.
-        Actualizar la lista en el DOM
-Implementar una función para sortear amigos
-    Obtener el elemento de la lista
-    Limpiar la lista existente:
-        Iterar sobre el arreglo
-Validar entradas vacías y sortear
-    Generar un índice aleatorio
-    Obtener el nombre sorteado
-    Mostrar resultado
-Mostrar el resultado
-Llamado de funciones
+La Estructura del código sufrió muchas modificaciones, las cuales podrás verificar en los commits para el control de versiones. La estructura final del código se encuentra a continuación:
+- Crear un array para almacenar los nombres
+- Implementar una función para agregar amigos.
+-     Capturar el valor del campo de entrada
+-         Entradas Vacias
+-         Entradas Repetidas
+-         Actualizar el array de amigos
+-         Restablecer el campo de texto a una cadena vacía.
+-         Actualizar la lista en el DOM
+- Implementar una función para sortear amigos
+-     Obtener el elemento de la lista
+-     Limpiar la lista existente:
+-         Iterar sobre el arreglo
+- Validar entradas vacías y sortear
+-     Generar un índice aleatorio
+-     Obtener el nombre sorteado
+-     Mostrar resultado
+- Mostrar el resultado
+- Llamado de funciones
 
 LISTA DE FUNCIONES
-    agregarAmigo
-    actualizarLista
-    sortearAmigo
-    publicarNombre
+-    agregarAmigo
+-    actualizarLista
+-    sortearAmigo
+-    publicarNombre
 
 LISTA DE VARIABLES
-    amigo: input box
+   amigo: input box
     amigoInput: variable para el mensaje en la input box
     listaCinco: array para los nombres
     nombreAmigo: tagID de los nombres de los Amigos
