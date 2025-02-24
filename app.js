@@ -85,7 +85,9 @@ let amigosMaximo = 5
                 let elemento = document.createElement("li")
                 elemento.textContent = nombre
                 resultadoLista.appendChild(elemento);
-            }     
+            }  else {
+                console.error("El elemento no existe")
+            }   
         }
 
 //se llaman las funciones
