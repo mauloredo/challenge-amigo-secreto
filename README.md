@@ -17,16 +17,23 @@
 ## 1. Descripción del Proyecto
 
 Este projecto de programación es parte del curso de Lógica de Programación del programa Oracle ONE en colaboración con Alura LATAM.
+
 El principal objetivo de este desafío es fortalecer las habilidades en lógica de programación. Se requiere desarrollar la lógica para resolver el problema.
+
 ---
 ## 2. Funcionalidad
 
 Esta aplicación permite al usuario ingresar nombres de sus amigos y luego realizar un sorteo aleatorio para determinar, quién es el amigo secreto.
-De esta manera, se aplican de manera práctica, conceptos fundamentales de lógica de programación como condicionales, arrays, funciones, entre otros. 
+
+De esta manera, se aplican de manera práctica, conceptos fundamentales de lógica de programación como condicionales, arrays, funciones, entre otros.
+
 Para lograrlo, esta aplicación debe permitir que se agreguen nombres a través de un campo de texo y un botón.
+
 Puntos importantes:
-   El programa deberá validar cuando se ingresan entrada vacía
-   El programa deberá identificar entradas dobles
+
+- El programa deberá validar cuando se ingresan entrada vacía.
+
+- El programa deberá identificar entradas dobles.
 ---
 ## 3. Uso de Código
 
@@ -41,7 +48,7 @@ Ya familiarizado con las herramientas y recursos proporcionados se comenzó el c
 ---
 ## 4. Uso de Código
 
-Principalmente se uso el lenguaje de programación Java Script, y los lenguajes de marcado HTML y Markdown ´para la elaboración del documento que te encuentras leyendo en este momento.
+Principalmente se uso el lenguaje de programación Java Script, y los lenguajes de marcado HTML y Markdown para la elaboración del documento que te encuentras leyendo en este momento.
 ---
 ## 5. Estructura del código
 
