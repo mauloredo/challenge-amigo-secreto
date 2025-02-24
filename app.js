@@ -48,7 +48,7 @@ let amigosMaximo = 5
             let elementoLista = document.getElementById("listaAmigos")
             //3.2 Limpiar la lista existente: Establecer lista.innerHTML = "" 
             // para asegurarse de que no haya duplicados al actualizar.
-            if (elementoiLista) {
+            if (elementoLista) {
                 elementoLista.innerHTML = ""
                 //3.3 Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos 
                 // y crear elementos de lista (<li>) para cada título.
@@ -57,6 +57,8 @@ let amigosMaximo = 5
                     elemento.textContent = amigo
                     elementoLista.appendChild(elemento)
                 })    
+            } else {
+                console.error("El elemento no existe")
             }
         }
         //5.1 Validar que haya amigos disponibles: Antes de sortear, 
