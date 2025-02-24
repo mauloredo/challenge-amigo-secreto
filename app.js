@@ -64,9 +64,9 @@ let amigosMaximo = 5
         //5.1 Validar que haya amigos disponibles: Antes de sortear, 
         // comprobar si el array amigos no está vacío.
         function sortearAmigo() {
-            if (listaCinco === 0) {
-                alert("Aún no hay amigos registrados!")
-                return
+            if (listaCinco.length === 0) {
+                alert("Aún no hay amigos registrados!");
+                return;
             }
             //5.2 Generar un índice aleatorio: Usar Math.random() y Math.floor() 
             // para seleccionar un índice aleatorio del arreglo.
@@ -92,7 +92,6 @@ let amigosMaximo = 5
 agregarAmigo()
 
 sortearAmigo()
-publicarNombre()
 
     //LISTA DE FUNCIONES
     //agregarAmigo
