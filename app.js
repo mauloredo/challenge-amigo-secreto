@@ -17,7 +17,7 @@ let amigosMaximo = 5
             let amigoInput = document.getElementById("amigo");
             let addButton = document.querySelector(".button-add");
             //4.1 Condicional para el maximo numero de amigos
-            if (listaCinco<amigosMaximo) {                
+            if (listaCinco.length < amigosMaximo) {                
                 //2.2Validar la entrada: Implementar una validación para asegurarse de que el campo no esté vacío. 
                 // Si está vacío, mostrar un alert con un mensaje de error: "Por favor, inserte un nombre."
                 if (nombreAmigo.trim() !=="") {
@@ -29,11 +29,14 @@ let amigosMaximo = 5
                     //restablecer el campo de texto a una cadena vacía.
                     amigoInput.placeholder = "Escribe un nombre";
                     //Cuando se han añadido los cinco nombres, el button se deshabilita    
+                    //actualizar la lista en el DOM
+                    actualizarLista()
+                    
                     if (listaCinco.length === amigosMaximo) {
                             addButton.disabled = true;
                     } 
                         else {
-                            amigoInput.placeholder =  "Por favor, inserte un nombre"
+                            alert("Por favor, inserte un nombre")
                         }
                 }
             }
@@ -85,7 +88,7 @@ let amigosMaximo = 5
 
 //se llaman las funciones
 agregarAmigo()
-actualizarLista()
+
 sortearAmigo()
 publicarNombre()
 
