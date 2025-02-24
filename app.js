@@ -21,6 +21,11 @@ let amigosMaximo = 5
                 //2.2Validar la entrada: Implementar una validación para asegurarse de que el campo no esté vacío. 
                 // Si está vacío, mostrar un alert con un mensaje de error: "Por favor, inserte un nombre."
                 if (nombreAmigo.trim() !=="") {
+                    //evita nombres repetidos
+                    if(listaCinco.includes(nombreAmigo)) {
+                        alert("Este nombre esta repetido")
+                        return;
+                    }
                     listaCinco.push(nombreAmigo);
                     //2.3 Actualizar el array de amigos: Si el valor es válido, 
                     // añadirlo al arreglo que almacena los nombre de amigos usando el método.push().
@@ -92,7 +97,6 @@ let amigosMaximo = 5
 
 //se llaman las funciones
 agregarAmigo()
-
 sortearAmigo()
 
     //LISTA DE FUNCIONES
