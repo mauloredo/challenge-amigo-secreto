@@ -43,6 +43,9 @@ let amigosMaximo = 5
                         else {
                             alert("Por favor, inserte un nombre")
                         }
+                    //se añade mensaje para numero max de amigos
+                    } else{
+                    alert("Límite máximo de amigos es 5")
                 }
             }
         }
