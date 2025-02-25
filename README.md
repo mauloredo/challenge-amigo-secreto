@@ -120,4 +120,6 @@ El programa tiene las limitaciones del nivel de conocimiento del autor, que orgu
 
 ## 7. Autor y Contacto
 
-Para cualquier duda y/o comentario, puedes contactar al autor a través del correo electrónico: maurilorepina@gmail.com
+Para cualquier duda y/o comentario, puedes contactar al autor a través del correo electrónico:
+
+[maurilorepina@gmail.com](mailto:maurilorepina@gmail.com)
