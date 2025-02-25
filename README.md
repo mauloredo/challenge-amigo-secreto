@@ -10,7 +10,7 @@
 - [Índice](#índice)
   - [1. Descripción del Proyecto](#1-descripción-del-proyecto)
   - [2. Funcionalidad](#2-funcionalidad)
-  - [3. Uso de Código](#3-uso-de-código)
+  - [3. Ejecución del proyecto](#3-ejecución-del-proyecto)
   - [4. Uso de Código](#4-uso-de-código)
   - [5. Estructura del código](#5-estructura-del-código)
   - [6. Limitaciones](#6-limitaciones)
@@ -42,14 +42,14 @@ Puntos importantes:
   
 ---
 
-## 3. Uso de Código
+## 3. Ejecución del proyecto
 
 Como base para el proyecto, se proporcionó un repositorio con el siguiente contenido:
 
-a. style.css
-b. index.html
-c. assets folder
-d. app.js (vacío)
+- style.css
+- index.html
+- assets folder
+- app.js (vacío)
 
 También se nos proporcionó una plantilla en Trello, con tarjetas para facilitar la elaboración del projecto paso a paso.
 
@@ -71,20 +71,20 @@ La Estructura del código sufrió muchas modificaciones, las cuales podrás veri
 
 - Crear un array para almacenar los nombres
 - Implementar una función para agregar amigos.
--         Capturar el valor del campo de entrada
--              Entradas Vacias
--              Entradas Repetidas
--              Actualizar el array de amigos
--              Restablecer el campo de texto a una cadena vacía.
--         Actualizar la lista en el DOM
+  - Capturar el valor del campo de entrada
+    - Entradas Vacias
+    - Entradas Repetidas
+    - Actualizar el array de amigos
+    - Restablecer el campo de texto a una cadena vacía.
+    - Actualizar la lista en el DOM
 - Implementar una función para sortear amigos
--         Obtener el elemento de la lista
--         Limpiar la lista existente:
--              Iterar sobre el arreglo
+  - Obtener el elemento de la lista
+  - Limpiar la lista existente:
+    - Iterar sobre el arreglo
 - Validar entradas vacías y sortear
--         Generar un índice aleatorio
--         Obtener el nombre sorteado
--         Mostrar resultado
+  - Generar un índice aleatorio
+  - Obtener el nombre sorteado
+  - Mostrar resultado
 - Mostrar el resultado
 - Llamado de funciones
 
