@@ -1,12 +1,11 @@
-# DESAFÍO AMIGO SECRETO
+<h1 align="left">DESAFÍO AMIGO SECRETO</h1>
+
 ## Lógica de Programación
 
 ![Alura LATAM](https://img.shields.io/badge/Alura-LATAM-blue) ![Oracle ONE](https://img.shields.io/badge/Oracle-ONE-red)
 
 ---
 # Índice
-- [DESAFÍO AMIGO SECRETO](#desafío-amigo-secreto)
-  - [Lógica de Programación](#lógica-de-programación)
 - [Índice](#índice)
   - [1. Descripción del Proyecto](#1-descripción-del-proyecto)
   - [2. Funcionalidad](#2-funcionalidad)
